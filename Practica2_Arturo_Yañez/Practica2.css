@@ -1,0 +1,174 @@
+body{
+    background-color:#1773A2;
+    height: fit-content;
+}
+p{
+    color: white;
+}
+#plan p{
+    color: #1773A2;
+    text-align: center;
+    font-size: 2em;
+    text-indent: 2em;
+}
+#cabecera button:first-of-type{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+button{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 0px 4px 0px 0px;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button#azul:hover{
+    background-color:#114d6b;
+    color: white;
+}
+button#blanco:hover{
+    background-color:#114d6b;
+    color: white;
+}
+button#blanco{
+    background-color:white;
+    border-color: white;
+    border-width: 1px;
+    color: #1773A2;
+    font-size: 1em;
+}
+button#azul{
+    color:white;
+    border-color: white;
+    border-width: 0.031em;
+    background-color: #1773A2;
+    font-size: 1em;
+}
+div#cabecera{
+    /*display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;*/
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color:#1773A2;
+    border-bottom: 0.1em solid #114d6b;
+    padding-bottom: 0.5em;
+}
+
+div#cabecera img{
+    width: 2.2em;
+    height: 2.2em;
+    vertical-align:middle;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+div#linea{
+    padding-top: 0.3em;
+    background-color: white;
+    margin-top: 2em;
+    /*width: 62%;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+div#ruta{
+    margin-left: 0.2em;;
+}
+
+div#plan{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table,td,th{
+    border-collapse: collapse;
+    border: 0.01em solid white;
+    color:white ;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+td{
+    background-color: white;
+    color: #1773A2;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+th{
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+td#rojo{
+    color: red;
+}
+td#verde{
+    color: green;
+}
+td#amarillo{
+    color: yellow;
+}
+
+div#ord{
+    background-color: white;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+div#ord p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 0.313em;
+    font-size: 0.9em;
+    text-align: left;
+}
+p#rojo{
+    color: red;
+}
+p#verde{
+    color: green;
+}
+p#amarillo{
+    color: yellow;
+}
+
+#salir button#blanco{
+    float: right;
+    margin-right: 1em;
+    margin-top: -1.2em;
+}
+div#rrss img{
+    width: 3em;
+    height: 3em;
+    vertical-align:middle;
+    filter: drop-shadow(4px 4px 4px black);
+    margin-left: 5px;
+    z-index:initial;
+}
+div#rrss{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+div#cont{
+    background-color: #114d6b;
+    padding: 1em 20em 1em 20em;
+    margin-top: 1em;
+    overflow: auto;
+}
+div#cont div p:first-child {
+    text-decoration:underline ;
+    color: white;
+}
+
+

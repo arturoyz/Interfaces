@@ -147,28 +147,3 @@ p#amarillo{
     margin-right: 1em;
     margin-top: -1.2em;
 }
-div#rrss img{
-    width: 3em;
-    height: 3em;
-    vertical-align:middle;
-    filter: drop-shadow(4px 4px 4px black);
-    margin-left: 5px;
-    z-index:initial;
-}
-div#rrss{
-    display: flex;
-    justify-content: center;
-    margin-top: 3em;
-}
-div#cont{
-    background-color: #114d6b;
-    padding: 1em 20em 1em 20em;
-    margin-top: 1em;
-    overflow: auto;
-}
-div#cont div p:first-child {
-    text-decoration:underline ;
-    color: white;
-}
-
-

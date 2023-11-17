@@ -1,6 +1,6 @@
 body{
     background-color:#1773A2;
-    height: fit-content;
+    height: 2024px;
 }
 p{
     color: white;
@@ -23,7 +23,6 @@ button{
     padding-left: 3em;
     padding-right: 3em;
     margin: 0px 4px 0px 0px;
-    vertical-align: middle;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 button#azul:hover{
@@ -48,18 +47,16 @@ button#azul{
     background-color: #1773A2;
     font-size: 1em;
 }
-div#cabecera{
-    /*display: flex;
-    justify-content: center;
-    width: fit-content;
-    margin: auto;*/
+#cabecera{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     position: sticky;
     top: 0;
     background-color:#1773A2;
     border-bottom: 0.1em solid #114d6b;
     padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    
 }
 
 div#cabecera img{
@@ -147,3 +144,60 @@ p#amarillo{
     margin-right: 1em;
     margin-top: -1.2em;
 }
+#rrss img{
+    width: 3em;
+    height: 3em;
+    /*filter: drop-shadow(4px 4px 4px black);*/
+}
+#rrss{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2%;
+    width: 10%;
+}
+
+#rrss #ins{
+    background-image: url("Instagram_Rounded_icon-icons.com_61576.png");
+    background-repeat: no-repeat;
+    background-clip: padding-box; 
+    padding: 1.5em;
+    background-size: 3em, 8em, auto;
+    position: relative;
+    filter: drop-shadow(4px 4px 4px black);
+    z-index: -1;
+}
+#rrss #fb{
+    background-image: url("Facebook_Rounded_icon-icons.com_61578.png");
+    background-repeat: no-repeat;
+    background-clip: padding-box; 
+    padding: 1.5em;
+    background-size: 3em, 8em, auto;
+    position: relative;
+    filter: drop-shadow(4px 4px 4px black);
+    z-index: -1;
+}
+
+#rrss #link{
+    background-image: url("LinkedIn_Rounded_icon-icons.com_61573.png");
+    background-repeat: no-repeat;
+    background-clip: padding-box; 
+    padding: 1.5em;
+    background-size: 3em, 8em, auto;
+    position: relative;
+    filter: drop-shadow(4px 4px 4px black);
+    z-index: -1;
+}
+#cont{
+    background-color: #114d6b;
+    margin-top: 1em;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#cont div h3 {
+    text-decoration:underline ;
+    color: white;
+}
+
+

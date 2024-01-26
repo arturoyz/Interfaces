@@ -217,10 +217,20 @@ body{
         }
     }
     @media screen and (min-width:1023px) {
+        .layout {
+            width: 1366px;
+            height: 768px;
+          
+            display: grid;
+            grid:
+              "sidebar body" 1fr
+              / auto 1fr;
+            gap: 8px;
+          }
+          
+        #cabecera{ grid-area: sidebar; }
+        #cuerpo{ grid-area: body; }
         body{
-            background-color: darkgreen;
-        }
-        #cabecera button:nth-last-child(1){
-            display: block;
+            background-color: red;
         }
     }

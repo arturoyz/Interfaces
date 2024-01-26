@@ -12,8 +12,8 @@ body{
     #plan p{
         color: #1773A2;
         text-align: center;
-        font-size: 2em;
-        text-indent: 2em;
+        /*font-size: 2em;
+        text-indent: 2em;*/
     }
     #cabecera{
         display: flex;
@@ -81,8 +81,8 @@ body{
     div#cabecera img{
         width: 2.2em;
         height: 2.2em;
-        vertical-align:middle;
-        /*margin-left: 1em;
+        /*vertical-align:middle;
+        margin-left: 1em;
         margin-right: 2em;*/
     }
     div#linea{
@@ -97,7 +97,7 @@ body{
     div#ruta{
         margin-left: 0.5em;;
     }
-    /*
+    
     div#plan{
         background-color: #ffffff;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -110,75 +110,68 @@ body{
         color:white ;
     }
     table{
-        width: 100%;
+        width: 90%;
         text-align: center;
         margin: auto;
     }
     td{
         background-color: white;
         color: #1773A2;
-        padding-left: 1em;
-        padding-right: 1em;
+        font-size: 80%;
         font-weight: bold;
         text-align: left;
     }
     th{
         font-weight: lighter;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1em;
+        font-size: 80%;
     }
-    td#rojo{
+    #rojo{
         color: red;
     }
-    td#verde{
+    #verde{
         color: green;
     }
-    td#amarillo{
+    #amarillo{
         color: yellow;
     }
     
     div#ord{
         background-color: white;
-        padding: 1em;
-        margin-top: 2em;
+        padding: 2%;
+        margin-top: 5%;
     }
     
     div#ord p{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
-        margin: 0.313em;
-        font-size: 0.9em;
+        margin: 1%;
+        font-size: 70%;
         text-align: left;
     }
-    p#rojo{
-        color: red;
+    #salir #blanco{
+        margin: auto;
+        border-radius: 0;
+        border: none;
     }
-    p#verde{
-        color: green;
-    }
-    p#amarillo{
-        color: yellow;
-    }
-    
-    #salir button#blanco{
-        float: right;
-        margin-right: 1em;
-        margin-top: -1.2em;
+    #salir{
+        padding: 2%;
+        display: flex;
+        align-content: center;
     }
     #rrss{
         display: flex;
         justify-content: center;
-        margin: auto;
         margin-top: 3%;
-        width: 15%;
+        width: 100%;
     }
     
     #rrss #ins{
         background-image: url("Instagram_Rounded_icon-icons.com_61576.png");
         background-repeat: no-repeat;
-        background-clip: padding-box; 
+        /*background-clip: padding-box;*/ 
         padding: 1.5em;
-        background-size: 3em, 8em, auto;
+        background-size: 80%, 80%, auto;
         position: relative;
         filter: drop-shadow(4px 4px 4px black);
         z-index: -1;
@@ -188,7 +181,7 @@ body{
         background-repeat: no-repeat;
         background-clip: padding-box; 
         padding: 1.5em;
-        background-size: 3em, 8em, auto;
+        background-size: 80%, 80%, auto;
         position: relative;
         filter: drop-shadow(4px 4px 4px black);
         z-index: -1;
@@ -199,7 +192,7 @@ body{
         background-repeat: no-repeat;
         background-clip: padding-box; 
         padding: 1.5em;
-        background-size: 3em, 8em, auto;
+        background-size: 80%, 80%, auto;
         position: relative;
         filter: drop-shadow(4px 4px 4px black);
         z-index: -1;
@@ -209,6 +202,7 @@ body{
         margin-top: 1%;
         display: flex;
         justify-content: space-around;
+        font-size: 80%;
     }
     #cont div h3 {
         text-decoration:underline ;
@@ -216,7 +210,7 @@ body{
     }
     #cont div{
         text-align: center;
-    }*/
+    }
     @media screen and (min-width: 600px) {
         body{
             background-color: darkblue;

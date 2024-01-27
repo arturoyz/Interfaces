@@ -4,7 +4,6 @@ body{
 }
     body{
         background-color:#1773A2;
-        height: 2024px;
     }
     p{
         color: white;
@@ -212,25 +211,53 @@ body{
         text-align: center;
     }
     @media screen and (min-width: 600px) {
-        body{
-            background-color: darkblue;
-        }
+
     }
     @media screen and (min-width:1023px) {
         .layout {
-            width: 1366px;
-            height: 768px;
-          
+            height: fit-content;
             display: grid;
             grid:
               "sidebar body" 1fr
-              / auto 1fr;
+              / 20% 79%;
             gap: 8px;
-          }
+        }
           
-        #cabecera{ grid-area: sidebar; }
-        #cuerpo{ grid-area: body; }
-        body{
-            background-color: red;
+        #cabecera {
+            display: flex;
+            grid-area: sidebar;
+            align-items: center;
+            justify-content: left;
+            flex-direction: column;
+            }
+        
+        #cabecera a {
+            order: -1; /* Mueve la imagen hacia arriba */
+        }
+        
+        #cabecera button:nth-last-child(1) {
+            display: block;
+        }
+        
+        #cabecera button:nth-last-child(4) {
+            display: block;
+        }
+        #cabecera button {
+            width: 100%;
+            height: fit-content;
+            border-radius: 0;
+            margin: 1%;
+        }
+        #cuerpo{ 
+            grid-area: body; 
+        }
+        table{
+            width: 90%;
+            transition: width 2s, height 4s,font-size 7s;
+        }
+        table:hover{
+            height: 150%;
+            width: 100%;
+            font-size: 150%;
         }
     }

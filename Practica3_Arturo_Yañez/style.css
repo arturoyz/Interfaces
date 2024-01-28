@@ -171,24 +171,26 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         margin: 1%;
-        font-size: 70%;
+        font-size: 60%;
         text-align: left;
     }
     #videos{
         margin: auto;
         margin-top: 5%;
         display: flex;
-        justify-content:space-around;
         align-items: center;
-        background-color: black;
+        background-color: #114d6b;
+        flex-direction: column;
     }
     #videos iframe{
-        width: 30%;
-        height: 30%;
+        width: 70%;
+        height: 70%;
+        margin: 5%;
     }
     #videos video{
-        width: 30%;
-        height: 30%;
+        width: 70%;
+        height: 70%;
+        margin: 5%;
     }
     #salir #blanco{
         margin: auto;
@@ -252,13 +254,39 @@
     #cont div{
         text-align: center;
     }
+    .audio{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     @media screen and (min-width: 600px) {
+        #cabecera button{
+            width: 15%;
+        }
         #cabecera button:nth-last-child(1) {
             display: block;
         }
         
         #cabecera button:nth-last-child(4) {
             display: block;
+        }
+        #videos{
+            margin: auto;
+            margin-top: 5%;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            flex-direction: row;
+        }
+        #videos iframe{
+            width: 40%;
+            height: 40%;
+            margin: 0;
+        }
+        #videos video{
+            width: 40%;
+            height: 40%;
+            margin: 0;
         }
     }
     @media screen and (min-width:1023px) {
@@ -311,5 +339,26 @@
             height: 150%;
             width: 100%;
             font-size: 150%;
+        }
+        #videos{
+            margin: auto;
+            margin-top: 5%;
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            flex-direction: row;
+        }
+        #videos iframe{
+            width: 40%;
+            height: 40%;
+            margin: 0;
+        }
+        #videos video{
+            width: 40%;
+            height: 40%;
+            margin: 0;
+        }
+        .rueda{
+            background-image: url("klipartz.com\ \(1\).png");
         }
     }

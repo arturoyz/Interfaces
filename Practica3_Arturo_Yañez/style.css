@@ -340,6 +340,13 @@
             width: 100%;
             font-size: 150%;
         }
+        div#ord p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin: 1%;
+            font-size: 100%;
+            text-align: left;
+        }
         #videos{
             margin: auto;
             margin-top: 5%;
